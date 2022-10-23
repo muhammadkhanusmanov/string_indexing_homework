@@ -6,4 +6,10 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    l = s.lower()
+    u = s.upper()
+    if l!=u:
+        a = -1
+    else:
+        a = int(s)
+    return a 
