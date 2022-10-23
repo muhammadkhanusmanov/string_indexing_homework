@@ -6,4 +6,5 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    m = s[0]+s[-1]
+    return m 
